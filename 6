@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 int    sum(int a, int b) { return a + b; }
 long   sum(long a, long b) { return a + b; }
 float  sum(float a, float b) { return a + b; }
@@ -7,18 +8,18 @@ double sum(double a, double b) { return a + b; }
 int main()
 {
     int a = 2; int b = 3;
-    std::cout << sum(a,b)<<std::endl;
+    cout << sum(a,b)<<endl;
  
     long a1 = 2; long b1 = 3;
-    std::cout << sum(a1, b1) << std::endl;
+    cout << sum(a1, b1) << endl;
  
     float a2 = 2; float b2 = 3;
-    std::cout << sum(a2, b2) << std::endl;
+    cout << sum(a2, b2) << endl;
  
     double a3 = 2; double b3 = 3;
-    std::cout << sum(a3, b3) << std::endl;
+    cout << sum(a3, b3) << endl;
  
  
-    std::cin >> a;
+    cin >> a;
     
 }
